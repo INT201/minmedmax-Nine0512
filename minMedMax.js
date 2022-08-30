@@ -16,13 +16,14 @@ function minMedMax(n1, n2, n3) {
           }
       }
   }
-  let storing = {
+  let storeing = {
     min : arr[0],
     mid : arr[1],
     max : arr[2]
 }
- return storing
+ return storeing
 }
 
+// console.log(minMedMax(1,5,5))
 
 module.exports = minMedMax
