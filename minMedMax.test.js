@@ -13,7 +13,7 @@ test('output#3', () => {
 })
 
 test('output#4', () => {
-  expect(testFn(5, 1, 1)).toStrictEqual({ min: 1, mid: 5, max: 5 })
+  expect(testFn(5, 1, 1)).toStrictEqual({ min: 1, mid: 1, max: 5 })
 })
 
 test('output#5', () => {
